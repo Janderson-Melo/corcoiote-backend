@@ -4,5 +4,7 @@
  const routerUser = Router();
 
  routerUser.get('/', UserController.getAllUser);
+ routerUser.get('/:id', UserController.getUserById);
+
 
  export default routerUser
