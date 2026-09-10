@@ -15,11 +15,6 @@ const users: User [] = [{
     name: 'Maria Melo',
     email: 'maria@gamil.com',
     password: crypto.randomUUID()
-}, {
-     id: 4,
-    name: 'Jose Melo',
-    email: 'jose@gamil.com',
-    password: crypto.randomUUID()
 }];
 
 export default users;

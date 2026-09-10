@@ -5,6 +5,7 @@
 
  routerUser.get('/', UserController.getAllUser);
  routerUser.get('/:id', UserController.getUserById);
+ routerUser.post('/', UserController.CreateUser);
 
 
  export default routerUser
