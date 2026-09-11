@@ -6,3 +6,4 @@ export type User = {
 }
 
 export type CreateUser = Omit<User, 'id'>;
+export type UpDateUser = Partial<Omit<User, 'id'>>;

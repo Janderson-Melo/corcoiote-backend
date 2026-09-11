@@ -3,9 +3,9 @@
 
  const routerUser = Router();
 
- routerUser.get('/', UserController.getAllUser);
- routerUser.get('/:id', UserController.getUserById);
- routerUser.post('/', UserController.CreateUser);
-
+routerUser.get('/', UserController.getAllUser);
+routerUser.get('/:id', UserController.getUserById);
+routerUser.post('/', UserController.CreateUser);
+routerUser.put('/:id', UserController.UpDateUser);
 
  export default routerUser
