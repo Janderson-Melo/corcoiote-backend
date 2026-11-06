@@ -45,7 +45,9 @@ export default function InvoicePage() {
     <>
       <h1>Faturas</h1>
 
+      <div className='panel'>
       <InvoiceTable datas={invoices} />
+      </div>
     </>
   );
 }
