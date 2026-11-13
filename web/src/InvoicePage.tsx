@@ -40,13 +40,17 @@ const invoices: Invoice[] = [
   }
 ];
 
-export default function InvoicePage() {
+interface InvoicesPagesProps{
+  data: Invoice[]
+}
+
+export default function InvoicePage(props: InvoicesPagesProps) {
   return (
     <>
       <h1>Faturas</h1>
 
-      <div className='panel'>
-      <InvoiceTable datas={invoices} />
+      <div className="panel">
+        <InvoiceTable datas={props.data} />
       </div>
     </>
   );

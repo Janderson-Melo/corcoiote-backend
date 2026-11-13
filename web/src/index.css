@@ -1,4 +1,4 @@
-:root{
+:root {
   --color-background: #0f1117;
   --color-background-backdrop: #0f111799;
   --color-surface: #171a21;
@@ -28,51 +28,52 @@
   --text-lg: 1.25rem;
   --text-xl: 1.5rem;
 
-  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: --var(background-color);
-    color: var(--color-text);
-    font-size: var(--text-base);
-    font-family: var(--font-sans);
+body {
+  background-color: --var(background-color);
+  color: var(--color-text);
+  font-size: var(--text-base);
+  font-family: var(--font-sans);
 }
 
 main {
-    padding: var(--space-8);
+  padding: var(--space-8);
 }
 
 .panel {
-    padding: var(--space-4);
-    background-color: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-color: var(--radius-surface);
+  padding: var(--space-4);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-color: var(--radius-surface);
 }
 
-h1{
-    font-size: var(--text-xl);
-    font-weight: 600;
-    margin-bottom: var(--space-6);
+h1 {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  margin-bottom: var(--space-6);
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
-th, td{
-    border-bottom: 1px solid var(--color-border);
-    padding: var(--space-3);
+th,
+td {
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-3);
 }
 
 th {
-    font-size: var(--text-sm);
-    font-weight: 500;
-    color: var(--color-text-muted);
-    text-align: left;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-align: left;
 }
